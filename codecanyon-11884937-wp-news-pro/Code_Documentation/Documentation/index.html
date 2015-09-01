@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" ><head><meta charset="utf-8" >
+	<title>WP News Pro</title>
+	<link rel="stylesheet" href="assets/screen.css" type="text/css" media="screen" >
+</head>
+
+<body style="left:0; top:0; " >
+	<div class="container" >
+	
+		<h1 class="center" >"WP News Pro"</h1>
+		<h3 class="center alt" style="left:1px; top:0; " >“<span class="center" >WP News Pro</span>” help documentation by “mactechinteractiv”</h3>
+	  <div class="borderTop" >
+	  <div class="span-6 colborder info prepend-1" >
+				<p class="prepend-top" >
+					<strong>
+					Created: 21/06/2015<br>
+					By: mactechinteractiv<br>
+					Profile: <a href="http://codecanyon.net/user/mactechinteractiv" target="_blank" >Codecanyon</a>
+					</strong>
+				</p>
+			</div>	
+	
+		<div class="span-12 last" >
+				<p class="prepend-top append-0" >Thank you for purchasing the <span class="center" ></span>WP News Pro.<br>
+			    If you have any questions that are beyond the scope of this help file, please feel free to email me via the Envato profile page. </p>
+			</div>
+		</div>
+		
+		<h3 id="toc" ><strong>Table of Contents</strong></h3>
+		<ol class="alpha" >
+			<li><a href="#qsetup" >Quick Setup</a></li>
+			<li><a href="#bconfig" >Basic Configuration</a></li>
+			<li><a href="#advconfig" >Advanced Configuration</a></li>
+		</ol>
+		
+		<hr/>
+	  <h3 id="qsetup" >A. <strong>Quick Setup</strong> - <a href="#toc" >top</a></h3>
+		<p>There is no setup. Just open the NewsApp2.xcodeproj and you will be on your way. One prerequisite is that you have Xcode 6.3 installed on you mac.</p>
+	
+  <hr/>
+		
+	  <h3 id="bconfig" >B. <strong>Basic Configuration </strong> - <a href="#toc" >top</a></h3>
+		
+		<p style="left:-48px; top:-1px; " >Install WP Thumbnail plugin your Wp site (read me plugin txt). The only thing you need to change the customize MIConfig.h file. Edit WP feed url, colours etc.</p>
+	  <hr/>
+	  <h3 id="advconfig" >C. <strong>Advanced Configuration</strong> - <a href="#toc" >top</a>	  </h3>
+	  <table>
+		  <thead> 
+				<tr> 
+					<th width="22%" >Adjustments</th>
+				</tr> 
+			</thead>
+			<tbody>
+                <tr>
+					<td>Add to your project (iPhone - iPad)<pre>[1] Install WP Thumbnail plugin your WP site (read me plugin txt). Copy and paste the WPN2Source folder contents to your project,<br>    add the missing frameworks. Add header source patch libxml2 your storyboard, add Your Bridgig-Header.h file your project.  <strong><a href="http://csongradpress.hu/NewsAppData/wp-content/uploads/2015/06/150621-0004.png" target="_blank" >---IMAGE LINK---</a></strong>
+
+[2] Copy and paste to your project in Storyboard files (Navigation Controller - News View Controller - InAppBrowser).   
+
+[3] Connect the Navigation Controller to your storyboard.
+
+[4] Customize MIConfig.h file and MIArticleView.m file customize swift bridgig header file name.  <strong><a href="http://csongradpress.hu/NewsAppData/wp-content/uploads/2015/06/150621-0005.png" target="_blank" >---IMAGE LINK---</a></strong> 
+
+[5] Edit colors, feed url etc. 
+
+
+If you have any questions do not hesitate to contact me.</pre></td>
+				</tr>         
+			</tbody>
+
+<tbody>
+                <tr>
+					<td>Add to your project (Today Extension)<pre>[1] Add your project Today Extension target. Xcode››New››Target››Application Extension››Today Extension  <strong><a href="http://csongradpress.hu/NewsAppData/wp-content/uploads/2015/06/150621-0006.png" target="_blank" >---IMAGE LINK---</a></strong>
+
+[2] Copy and paste the TodaySource folder contents to your project 
+
+[3] Add MIConfig.h file, for your Bridging-Header.h file
+
+[4] Copy and paste to your project in MaiInterfaceStoryboard file (TodayViewController), add initial controller.
+
+
+If you have any questions do not hesitate to contact me.</pre></td>
+				</tr>         
+			</tbody><tbody>
+                <tr>
+					<td>Add to your project (Watch Kit App)<pre>[1] Add your project Watch Kit App. Xcode››New››Target››Apple Watch››Watch Kit App 
+
+[2] Copy and paste the WatchSource folder contents to your project. 
+
+[3] Copy and paste to your project in InterfaceStoryboard files (News and News Detail Controllers), add initial controller.
+
+[4] Customize InterfaceController.swift, let url = NSURL(string:"http://csongradpress.hu/NewsAppData/?feed=rss2")! row . <strong><a href="http://csongradpress.hu/NewsAppData/wp-content/uploads/2015/06/150621-0007.png" target="_blank" >---IMAGE LINK---</a></strong>
+
+
+
+If you have any questions do not hesitate to contact me.</pre></td>
+
+				</tr>         
+			</tbody>
+
+
+		</table>
+
+<hr/>
+		<p><a href="#toc" >Go To TOC</a></p>
+		<hr class="space" />
+	</div>
+
+</body></html>

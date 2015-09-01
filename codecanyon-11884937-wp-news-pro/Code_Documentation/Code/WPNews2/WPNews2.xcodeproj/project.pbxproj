@@ -1,0 +1,1154 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C211C13A1B2EB1C300C2303A /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C211C1391B2EB1C300C2303A /* InterfaceController.swift */; };
+		C211C13C1B2EB1C300C2303A /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C211C13B1B2EB1C300C2303A /* NotificationController.swift */; };
+		C211C13E1B2EB1C300C2303A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C211C13D1B2EB1C300C2303A /* Images.xcassets */; };
+		C211C1421B2EB1C400C2303A /* WPNews2 WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = C211C1411B2EB1C400C2303A /* WPNews2 WatchKit App.app */; };
+		C211C14A1B2EB1C400C2303A /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C211C1481B2EB1C400C2303A /* Interface.storyboard */; };
+		C211C14C1B2EB1C400C2303A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C211C14B1B2EB1C400C2303A /* Images.xcassets */; };
+		C211C14F1B2EB1C400C2303A /* WPNews2 WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C211C1341B2EB1C300C2303A /* WPNews2 WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C228C3681B2F47F0006B9030 /* MIImageDeviceCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = C228C3671B2F47F0006B9030 /* MIImageDeviceCache.swift */; };
+		C2491DA31B2DCF360017BE8C /* NewsPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2491DA21B2DCF360017BE8C /* NewsPost.swift */; };
+		C249A7DA1B304D37006CDBC6 /* MINewsDetailInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C249A7D91B304D37006CDBC6 /* MINewsDetailInterfaceController.swift */; };
+		C256F1D71B30A5C000AB811E /* MINewsString+RemoveHTMLCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = C256F1D61B30A5C000AB811E /* MINewsString+RemoveHTMLCharacters.swift */; };
+		C25A81C01B275664004B6BCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25A81BF1B275664004B6BCB /* AppDelegate.swift */; };
+		C25A81C51B275664004B6BCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C25A81C31B275664004B6BCB /* Main.storyboard */; };
+		C25A81C71B275664004B6BCB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C25A81C61B275664004B6BCB /* Images.xcassets */; };
+		C25A81CA1B275664004B6BCB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C25A81C81B275664004B6BCB /* LaunchScreen.xib */; };
+		C25A81D61B275664004B6BCB /* WPNews2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25A81D51B275664004B6BCB /* WPNews2Tests.swift */; };
+		C25A824B1B2756FA004B6BCB /* ISImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C25A81E21B2756F9004B6BCB /* ISImageViewController.m */; };
+		C25A824C1B2756FA004B6BCB /* MIArticleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C25A81E41B2756F9004B6BCB /* MIArticleViewController.m */; };
+		C25A824D1B2756FA004B6BCB /* MICellView.m in Sources */ = {isa = PBXBuildFile; fileRef = C25A81E61B2756F9004B6BCB /* MICellView.m */; };
+		C25A824E1B2756FA004B6BCB /* MINewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C25A81E81B2756F9004B6BCB /* MINewsViewController.m */; };
+		C25A824F1B2756FA004B6BCB /* PostCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C25A81EA1B2756F9004B6BCB /* PostCell.m */; };
+		C25A82511B2756FA004B6BCB /* MONActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = C25A81EE1B2756F9004B6BCB /* MONActivityIndicatorView.m */; };
+		C25A82521B2756FA004B6BCB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C25A81EF1B2756F9004B6BCB /* Localizable.strings */; };
+		C25A82531B2756FA004B6BCB /* MICustomColoredAccessory.m in Sources */ = {isa = PBXBuildFile; fileRef = C25A81F11B2756F9004B6BCB /* MICustomColoredAccessory.m */; };
+		C25A82541B2756FA004B6BCB /* KSMManyOptionsButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C25A81F31B2756F9004B6BCB /* KSMManyOptionsButton.m */; };
+		C25A82551B2756FA004B6BCB /* NINetworkActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = C25A81F51B2756F9004B6BCB /* NINetworkActivity.m */; };
+		C25A82561B2756FA004B6BCB /* NSArray+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C25A81F71B2756F9004B6BCB /* NSArray+Additions.m */; };
+		C25A82571B2756FA004B6BCB /* AFDropdownNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = C25A81F91B2756F9004B6BCB /* AFDropdownNotification.m */; };
+		C25A82581B2756FA004B6BCB /* MIFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = C25A81FB1B2756F9004B6BCB /* MIFeed.m */; };
+		C25A82591B2756FA004B6BCB /* MIFeedCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C25A81FD1B2756F9004B6BCB /* MIFeedCache.m */; };
+		C25A825A1B2756FA004B6BCB /* MIFeedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C25A81FF1B2756F9004B6BCB /* MIFeedItem.m */; };
+		C25A825B1B2756FA004B6BCB /* MIFeedLoad.m in Sources */ = {isa = PBXBuildFile; fileRef = C25A82011B2756F9004B6BCB /* MIFeedLoad.m */; };
+		C25A825C1B2756FA004B6BCB /* MIFeedParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C25A82031B2756F9004B6BCB /* MIFeedParser.m */; };
+		C25A825D1B2756FA004B6BCB /* MIRemoteFile.m in Sources */ = {isa = PBXBuildFile; fileRef = C25A82051B2756F9004B6BCB /* MIRemoteFile.m */; };
+		C25A825E1B2756FA004B6BCB /* MIXMLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C25A82071B2756F9004B6BCB /* MIXMLUtils.m */; };
+		C25A825F1B2756FA004B6BCB /* MICircleActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = C25A82091B2756F9004B6BCB /* MICircleActivity.m */; };
+		C25A82601B2756FA004B6BCB /* news.css in Resources */ = {isa = PBXBuildFile; fileRef = C25A820A1B2756F9004B6BCB /* news.css */; };
+		C25A82611B2756FA004B6BCB /* news.html in Resources */ = {isa = PBXBuildFile; fileRef = C25A820B1B2756F9004B6BCB /* news.html */; };
+		C25A82621B2756FA004B6BCB /* news.js in Resources */ = {isa = PBXBuildFile; fileRef = C25A820C1B2756F9004B6BCB /* news.js */; };
+		C25A82631B2756FA004B6BCB /* underscore-min.js in Resources */ = {isa = PBXBuildFile; fileRef = C25A820D1B2756F9004B6BCB /* underscore-min.js */; };
+		C25A82641B2756FA004B6BCB /* zepto.min.js in Resources */ = {isa = PBXBuildFile; fileRef = C25A820E1B2756F9004B6BCB /* zepto.min.js */; };
+		C25A82651B2756FA004B6BCB /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C25A82101B2756F9004B6BCB /* MKAnnotationView+WebCache.m */; };
+		C25A82661B2756FA004B6BCB /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = C25A82121B2756F9004B6BCB /* NSData+ImageContentType.m */; };
+		C25A82671B2756FA004B6BCB /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C25A82141B2756F9004B6BCB /* SDImageCache.m */; };
+		C25A82681B2756FA004B6BCB /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = C25A82161B2756F9004B6BCB /* SDWebImageCompat.m */; };
+		C25A82691B2756FA004B6BCB /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = C25A82181B2756F9004B6BCB /* SDWebImageDecoder.m */; };
+		C25A826A1B2756FA004B6BCB /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = C25A821A1B2756F9004B6BCB /* SDWebImageDownloader.m */; };
+		C25A826B1B2756FA004B6BCB /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C25A821C1B2756F9004B6BCB /* SDWebImageDownloaderOperation.m */; };
+		C25A826C1B2756FA004B6BCB /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C25A821E1B2756F9004B6BCB /* SDWebImageManager.m */; };
+		C25A826D1B2756FA004B6BCB /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = C25A82211B2756F9004B6BCB /* SDWebImagePrefetcher.m */; };
+		C25A826E1B2756FA004B6BCB /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C25A82231B2756F9004B6BCB /* UIButton+WebCache.m */; };
+		C25A826F1B2756FA004B6BCB /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = C25A82251B2756F9004B6BCB /* UIImage+GIF.m */; };
+		C25A82701B2756FA004B6BCB /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = C25A82271B2756F9004B6BCB /* UIImage+MultiFormat.m */; };
+		C25A82711B2756FA004B6BCB /* UIImage+WebP.m in Sources */ = {isa = PBXBuildFile; fileRef = C25A82291B2756F9004B6BCB /* UIImage+WebP.m */; };
+		C25A82721B2756FA004B6BCB /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C25A822B1B2756FA004B6BCB /* UIImageView+HighlightedWebCache.m */; };
+		C25A82731B2756FA004B6BCB /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C25A822D1B2756FA004B6BCB /* UIImageView+WebCache.m */; };
+		C25A82741B2756FA004B6BCB /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C25A822F1B2756FA004B6BCB /* UIView+WebCacheOperation.m */; };
+		C25A82951B275A4A004B6BCB /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C25A828F1B27585D004B6BCB /* libxml2.dylib */; };
+		C25A82961B275A57004B6BCB /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C25A82911B275869004B6BCB /* libz.dylib */; };
+		C25A82971B275A67004B6BCB /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C25A82931B275878004B6BCB /* libsqlite3.dylib */; };
+		C28EB53E1B280A4200B762DC /* WPN-Icons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C28EB53D1B280A4200B762DC /* WPN-Icons.xcassets */; };
+		C28EB5421B280A6400B762DC /* ISAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28EB53F1B280A6400B762DC /* ISAlertView.swift */; };
+		C28EB5431B280A6400B762DC /* ISFrostedSidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28EB5401B280A6400B762DC /* ISFrostedSidebar.swift */; };
+		C28EB5441B280A6400B762DC /* ISInAppBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28EB5411B280A6400B762DC /* ISInAppBrowser.swift */; };
+		C2DE40E51B2F1EFE00B12B5C /* MINewsTableRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DE40E41B2F1EFE00B12B5C /* MINewsTableRowController.swift */; };
+		C2DE40E91B2F223F00B12B5C /* NewsPostWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2DE40E81B2F223F00B12B5C /* NewsPostWatch.swift */; };
+		C2FEA64D1B2A01A6003F0C80 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2FEA64C1B2A01A6003F0C80 /* NotificationCenter.framework */; };
+		C2FEA6521B2A01A6003F0C80 /* MITodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FEA6511B2A01A6003F0C80 /* MITodayViewController.swift */; };
+		C2FEA6541B2A01A6003F0C80 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2FEA6531B2A01A6003F0C80 /* MainInterface.storyboard */; };
+		C2FEA6571B2A01A6003F0C80 /* MITodayWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C2FEA64A1B2A01A6003F0C80 /* MITodayWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C2FEA65D1B2A022A003F0C80 /* MITodayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FEA65C1B2A022A003F0C80 /* MITodayCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C211C1431B2EB1C400C2303A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C25A81B21B275664004B6BCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C211C1401B2EB1C300C2303A;
+			remoteInfo = "WPNews2 WatchKit App";
+		};
+		C211C14D1B2EB1C400C2303A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C25A81B21B275664004B6BCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C211C1331B2EB1C300C2303A;
+			remoteInfo = "WPNews2 WatchKit Extension";
+		};
+		C25A81D01B275664004B6BCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C25A81B21B275664004B6BCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C25A81B91B275664004B6BCB;
+			remoteInfo = WPNews2;
+		};
+		C2FEA6551B2A01A6003F0C80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C25A81B21B275664004B6BCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2FEA6491B2A01A6003F0C80;
+			remoteInfo = MITodayWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C2FEA65B1B2A01A7003F0C80 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C211C14F1B2EB1C400C2303A /* WPNews2 WatchKit Extension.appex in Embed App Extensions */,
+				C2FEA6571B2A01A6003F0C80 /* MITodayWidget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C211C1341B2EB1C300C2303A /* WPNews2 WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WPNews2 WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C211C1371B2EB1C300C2303A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C211C1381B2EB1C300C2303A /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		C211C1391B2EB1C300C2303A /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		C211C13B1B2EB1C300C2303A /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		C211C13D1B2EB1C300C2303A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C211C1411B2EB1C400C2303A /* WPNews2 WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WPNews2 WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C211C1471B2EB1C400C2303A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C211C1491B2EB1C400C2303A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		C211C14B1B2EB1C400C2303A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C228C3671B2F47F0006B9030 /* MIImageDeviceCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MIImageDeviceCache.swift; sourceTree = "<group>"; };
+		C2491DA21B2DCF360017BE8C /* NewsPost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsPost.swift; sourceTree = "<group>"; };
+		C249A7D91B304D37006CDBC6 /* MINewsDetailInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MINewsDetailInterfaceController.swift; sourceTree = "<group>"; };
+		C256F1D61B30A5C000AB811E /* MINewsString+RemoveHTMLCharacters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MINewsString+RemoveHTMLCharacters.swift"; sourceTree = "<group>"; };
+		C25A81BA1B275664004B6BCB /* WPNews2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WPNews2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C25A81BE1B275664004B6BCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C25A81BF1B275664004B6BCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C25A81C41B275664004B6BCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C25A81C61B275664004B6BCB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C25A81C91B275664004B6BCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C25A81CF1B275664004B6BCB /* WPNews2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WPNews2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C25A81D41B275664004B6BCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C25A81D51B275664004B6BCB /* WPNews2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WPNews2Tests.swift; sourceTree = "<group>"; };
+		C25A81E01B2756F8004B6BCB /* WPNews2-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WPNews2-Bridging-Header.h"; sourceTree = "<group>"; };
+		C25A81E11B2756F9004B6BCB /* ISImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISImageViewController.h; sourceTree = "<group>"; };
+		C25A81E21B2756F9004B6BCB /* ISImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISImageViewController.m; sourceTree = "<group>"; };
+		C25A81E31B2756F9004B6BCB /* MIArticleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIArticleViewController.h; sourceTree = "<group>"; };
+		C25A81E41B2756F9004B6BCB /* MIArticleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIArticleViewController.m; sourceTree = "<group>"; };
+		C25A81E51B2756F9004B6BCB /* MICellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MICellView.h; sourceTree = "<group>"; };
+		C25A81E61B2756F9004B6BCB /* MICellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MICellView.m; sourceTree = "<group>"; };
+		C25A81E71B2756F9004B6BCB /* MINewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MINewsViewController.h; sourceTree = "<group>"; };
+		C25A81E81B2756F9004B6BCB /* MINewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MINewsViewController.m; sourceTree = "<group>"; };
+		C25A81E91B2756F9004B6BCB /* PostCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostCell.h; sourceTree = "<group>"; };
+		C25A81EA1B2756F9004B6BCB /* PostCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostCell.m; sourceTree = "<group>"; };
+		C25A81ED1B2756F9004B6BCB /* MONActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MONActivityIndicatorView.h; sourceTree = "<group>"; };
+		C25A81EE1B2756F9004B6BCB /* MONActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MONActivityIndicatorView.m; sourceTree = "<group>"; };
+		C25A81EF1B2756F9004B6BCB /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		C25A81F01B2756F9004B6BCB /* MICustomColoredAccessory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MICustomColoredAccessory.h; sourceTree = "<group>"; };
+		C25A81F11B2756F9004B6BCB /* MICustomColoredAccessory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MICustomColoredAccessory.m; sourceTree = "<group>"; };
+		C25A81F21B2756F9004B6BCB /* KSMManyOptionsButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSMManyOptionsButton.h; sourceTree = "<group>"; };
+		C25A81F31B2756F9004B6BCB /* KSMManyOptionsButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSMManyOptionsButton.m; sourceTree = "<group>"; };
+		C25A81F41B2756F9004B6BCB /* NINetworkActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NINetworkActivity.h; sourceTree = "<group>"; };
+		C25A81F51B2756F9004B6BCB /* NINetworkActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NINetworkActivity.m; sourceTree = "<group>"; };
+		C25A81F61B2756F9004B6BCB /* NSArray+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Additions.h"; sourceTree = "<group>"; };
+		C25A81F71B2756F9004B6BCB /* NSArray+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Additions.m"; sourceTree = "<group>"; };
+		C25A81F81B2756F9004B6BCB /* AFDropdownNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFDropdownNotification.h; sourceTree = "<group>"; };
+		C25A81F91B2756F9004B6BCB /* AFDropdownNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFDropdownNotification.m; sourceTree = "<group>"; };
+		C25A81FA1B2756F9004B6BCB /* MIFeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIFeed.h; sourceTree = "<group>"; };
+		C25A81FB1B2756F9004B6BCB /* MIFeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIFeed.m; sourceTree = "<group>"; };
+		C25A81FC1B2756F9004B6BCB /* MIFeedCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIFeedCache.h; sourceTree = "<group>"; };
+		C25A81FD1B2756F9004B6BCB /* MIFeedCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIFeedCache.m; sourceTree = "<group>"; };
+		C25A81FE1B2756F9004B6BCB /* MIFeedItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIFeedItem.h; sourceTree = "<group>"; };
+		C25A81FF1B2756F9004B6BCB /* MIFeedItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIFeedItem.m; sourceTree = "<group>"; };
+		C25A82001B2756F9004B6BCB /* MIFeedLoad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIFeedLoad.h; sourceTree = "<group>"; };
+		C25A82011B2756F9004B6BCB /* MIFeedLoad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIFeedLoad.m; sourceTree = "<group>"; };
+		C25A82021B2756F9004B6BCB /* MIFeedParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIFeedParser.h; sourceTree = "<group>"; };
+		C25A82031B2756F9004B6BCB /* MIFeedParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIFeedParser.m; sourceTree = "<group>"; };
+		C25A82041B2756F9004B6BCB /* MIRemoteFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIRemoteFile.h; sourceTree = "<group>"; };
+		C25A82051B2756F9004B6BCB /* MIRemoteFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIRemoteFile.m; sourceTree = "<group>"; };
+		C25A82061B2756F9004B6BCB /* MIXMLUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIXMLUtils.h; sourceTree = "<group>"; };
+		C25A82071B2756F9004B6BCB /* MIXMLUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIXMLUtils.m; sourceTree = "<group>"; };
+		C25A82081B2756F9004B6BCB /* MICircleActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MICircleActivity.h; sourceTree = "<group>"; };
+		C25A82091B2756F9004B6BCB /* MICircleActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MICircleActivity.m; sourceTree = "<group>"; };
+		C25A820A1B2756F9004B6BCB /* news.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = news.css; sourceTree = "<group>"; };
+		C25A820B1B2756F9004B6BCB /* news.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = news.html; sourceTree = "<group>"; };
+		C25A820C1B2756F9004B6BCB /* news.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = news.js; sourceTree = "<group>"; };
+		C25A820D1B2756F9004B6BCB /* underscore-min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "underscore-min.js"; sourceTree = "<group>"; };
+		C25A820E1B2756F9004B6BCB /* zepto.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = zepto.min.js; sourceTree = "<group>"; };
+		C25A820F1B2756F9004B6BCB /* MKAnnotationView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+WebCache.h"; sourceTree = "<group>"; };
+		C25A82101B2756F9004B6BCB /* MKAnnotationView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKAnnotationView+WebCache.m"; sourceTree = "<group>"; };
+		C25A82111B2756F9004B6BCB /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		C25A82121B2756F9004B6BCB /* NSData+ImageContentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		C25A82131B2756F9004B6BCB /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
+		C25A82141B2756F9004B6BCB /* SDImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDImageCache.m; sourceTree = "<group>"; };
+		C25A82151B2756F9004B6BCB /* SDWebImageCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageCompat.h; sourceTree = "<group>"; };
+		C25A82161B2756F9004B6BCB /* SDWebImageCompat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageCompat.m; sourceTree = "<group>"; };
+		C25A82171B2756F9004B6BCB /* SDWebImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDecoder.h; sourceTree = "<group>"; };
+		C25A82181B2756F9004B6BCB /* SDWebImageDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDecoder.m; sourceTree = "<group>"; };
+		C25A82191B2756F9004B6BCB /* SDWebImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloader.h; sourceTree = "<group>"; };
+		C25A821A1B2756F9004B6BCB /* SDWebImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloader.m; sourceTree = "<group>"; };
+		C25A821B1B2756F9004B6BCB /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		C25A821C1B2756F9004B6BCB /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		C25A821D1B2756F9004B6BCB /* SDWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManager.h; sourceTree = "<group>"; };
+		C25A821E1B2756F9004B6BCB /* SDWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageManager.m; sourceTree = "<group>"; };
+		C25A821F1B2756F9004B6BCB /* SDWebImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageOperation.h; sourceTree = "<group>"; };
+		C25A82201B2756F9004B6BCB /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		C25A82211B2756F9004B6BCB /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		C25A82221B2756F9004B6BCB /* UIButton+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WebCache.h"; sourceTree = "<group>"; };
+		C25A82231B2756F9004B6BCB /* UIButton+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WebCache.m"; sourceTree = "<group>"; };
+		C25A82241B2756F9004B6BCB /* UIImage+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GIF.h"; sourceTree = "<group>"; };
+		C25A82251B2756F9004B6BCB /* UIImage+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GIF.m"; sourceTree = "<group>"; };
+		C25A82261B2756F9004B6BCB /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		C25A82271B2756F9004B6BCB /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		C25A82281B2756F9004B6BCB /* UIImage+WebP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WebP.h"; sourceTree = "<group>"; };
+		C25A82291B2756F9004B6BCB /* UIImage+WebP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WebP.m"; sourceTree = "<group>"; };
+		C25A822A1B2756FA004B6BCB /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
+		C25A822B1B2756FA004B6BCB /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
+		C25A822C1B2756FA004B6BCB /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		C25A822D1B2756FA004B6BCB /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		C25A822E1B2756FA004B6BCB /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
+		C25A822F1B2756FA004B6BCB /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		C25A82491B2756FA004B6BCB /* MIConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIConfig.h; sourceTree = "<group>"; };
+		C25A828F1B27585D004B6BCB /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		C25A82911B275869004B6BCB /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		C25A82931B275878004B6BCB /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		C28EB53D1B280A4200B762DC /* WPN-Icons.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "WPN-Icons.xcassets"; sourceTree = "<group>"; };
+		C28EB53F1B280A6400B762DC /* ISAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISAlertView.swift; sourceTree = "<group>"; };
+		C28EB5401B280A6400B762DC /* ISFrostedSidebar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISFrostedSidebar.swift; sourceTree = "<group>"; };
+		C28EB5411B280A6400B762DC /* ISInAppBrowser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISInAppBrowser.swift; sourceTree = "<group>"; };
+		C2DE40E41B2F1EFE00B12B5C /* MINewsTableRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MINewsTableRowController.swift; sourceTree = "<group>"; };
+		C2DE40E81B2F223F00B12B5C /* NewsPostWatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsPostWatch.swift; sourceTree = "<group>"; };
+		C2FEA64A1B2A01A6003F0C80 /* MITodayWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MITodayWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2FEA64C1B2A01A6003F0C80 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		C2FEA6501B2A01A6003F0C80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2FEA6511B2A01A6003F0C80 /* MITodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MITodayViewController.swift; sourceTree = "<group>"; };
+		C2FEA6531B2A01A6003F0C80 /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		C2FEA65C1B2A022A003F0C80 /* MITodayCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MITodayCell.swift; sourceTree = "<group>"; };
+		C2FEA6AE1B2A1CBB003F0C80 /* MITodayWidget-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MITodayWidget-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C211C1311B2EB1C300C2303A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C25A81B71B275664004B6BCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C25A82971B275A67004B6BCB /* libsqlite3.dylib in Frameworks */,
+				C25A82961B275A57004B6BCB /* libz.dylib in Frameworks */,
+				C25A82951B275A4A004B6BCB /* libxml2.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C25A81CC1B275664004B6BCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2FEA6471B2A01A6003F0C80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2FEA64D1B2A01A6003F0C80 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C211C1351B2EB1C300C2303A /* WPNews2 WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C27B76601B36E1EC00D0C711 /* NWatchSource */,
+				C211C13B1B2EB1C300C2303A /* NotificationController.swift */,
+				C211C13D1B2EB1C300C2303A /* Images.xcassets */,
+				C211C1361B2EB1C300C2303A /* Supporting Files */,
+			);
+			path = "WPNews2 WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		C211C1361B2EB1C300C2303A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C211C1371B2EB1C300C2303A /* Info.plist */,
+				C211C1381B2EB1C300C2303A /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C211C1451B2EB1C400C2303A /* WPNews2 WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				C211C1481B2EB1C400C2303A /* Interface.storyboard */,
+				C211C14B1B2EB1C400C2303A /* Images.xcassets */,
+				C211C1461B2EB1C400C2303A /* Supporting Files */,
+			);
+			path = "WPNews2 WatchKit App";
+			sourceTree = "<group>";
+		};
+		C211C1461B2EB1C400C2303A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C211C1471B2EB1C400C2303A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C25A81B11B275664004B6BCB = {
+			isa = PBXGroup;
+			children = (
+				C25A82931B275878004B6BCB /* libsqlite3.dylib */,
+				C25A82911B275869004B6BCB /* libz.dylib */,
+				C25A828F1B27585D004B6BCB /* libxml2.dylib */,
+				C25A81BC1B275664004B6BCB /* WPNews2 */,
+				C25A81D21B275664004B6BCB /* WPNews2Tests */,
+				C2FEA64E1B2A01A6003F0C80 /* MITodayWidget */,
+				C211C1351B2EB1C300C2303A /* WPNews2 WatchKit Extension */,
+				C211C1451B2EB1C400C2303A /* WPNews2 WatchKit App */,
+				C2FEA64B1B2A01A6003F0C80 /* Frameworks */,
+				C25A81BB1B275664004B6BCB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C25A81BB1B275664004B6BCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C25A81BA1B275664004B6BCB /* WPNews2.app */,
+				C25A81CF1B275664004B6BCB /* WPNews2Tests.xctest */,
+				C2FEA64A1B2A01A6003F0C80 /* MITodayWidget.appex */,
+				C211C1341B2EB1C300C2303A /* WPNews2 WatchKit Extension.appex */,
+				C211C1411B2EB1C400C2303A /* WPNews2 WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C25A81BC1B275664004B6BCB /* WPNews2 */ = {
+			isa = PBXGroup;
+			children = (
+				C25A81DF1B27566F004B6BCB /* WPN2Source */,
+				C25A81BF1B275664004B6BCB /* AppDelegate.swift */,
+				C25A81C31B275664004B6BCB /* Main.storyboard */,
+				C25A81C61B275664004B6BCB /* Images.xcassets */,
+				C25A81C81B275664004B6BCB /* LaunchScreen.xib */,
+				C25A81BD1B275664004B6BCB /* Supporting Files */,
+			);
+			path = WPNews2;
+			sourceTree = "<group>";
+		};
+		C25A81BD1B275664004B6BCB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C25A81BE1B275664004B6BCB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C25A81D21B275664004B6BCB /* WPNews2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C25A81D51B275664004B6BCB /* WPNews2Tests.swift */,
+				C25A81D31B275664004B6BCB /* Supporting Files */,
+			);
+			path = WPNews2Tests;
+			sourceTree = "<group>";
+		};
+		C25A81D31B275664004B6BCB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C25A81D41B275664004B6BCB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C25A81DF1B27566F004B6BCB /* WPN2Source */ = {
+			isa = PBXGroup;
+			children = (
+				C25A81E11B2756F9004B6BCB /* ISImageViewController.h */,
+				C25A81E21B2756F9004B6BCB /* ISImageViewController.m */,
+				C25A81E31B2756F9004B6BCB /* MIArticleViewController.h */,
+				C25A81E41B2756F9004B6BCB /* MIArticleViewController.m */,
+				C25A81E51B2756F9004B6BCB /* MICellView.h */,
+				C25A81E61B2756F9004B6BCB /* MICellView.m */,
+				C25A81E71B2756F9004B6BCB /* MINewsViewController.h */,
+				C25A81E81B2756F9004B6BCB /* MINewsViewController.m */,
+				C25A81E91B2756F9004B6BCB /* PostCell.h */,
+				C25A81EA1B2756F9004B6BCB /* PostCell.m */,
+				C25A81ED1B2756F9004B6BCB /* MONActivityIndicatorView.h */,
+				C25A81EE1B2756F9004B6BCB /* MONActivityIndicatorView.m */,
+				C25A81EF1B2756F9004B6BCB /* Localizable.strings */,
+				C25A81F01B2756F9004B6BCB /* MICustomColoredAccessory.h */,
+				C25A81F11B2756F9004B6BCB /* MICustomColoredAccessory.m */,
+				C25A81F21B2756F9004B6BCB /* KSMManyOptionsButton.h */,
+				C25A81F31B2756F9004B6BCB /* KSMManyOptionsButton.m */,
+				C25A81F41B2756F9004B6BCB /* NINetworkActivity.h */,
+				C25A81F51B2756F9004B6BCB /* NINetworkActivity.m */,
+				C25A81F61B2756F9004B6BCB /* NSArray+Additions.h */,
+				C25A81F71B2756F9004B6BCB /* NSArray+Additions.m */,
+				C25A81F81B2756F9004B6BCB /* AFDropdownNotification.h */,
+				C25A81F91B2756F9004B6BCB /* AFDropdownNotification.m */,
+				C25A81FA1B2756F9004B6BCB /* MIFeed.h */,
+				C25A81FB1B2756F9004B6BCB /* MIFeed.m */,
+				C25A81FC1B2756F9004B6BCB /* MIFeedCache.h */,
+				C25A81FD1B2756F9004B6BCB /* MIFeedCache.m */,
+				C25A81FE1B2756F9004B6BCB /* MIFeedItem.h */,
+				C25A81FF1B2756F9004B6BCB /* MIFeedItem.m */,
+				C25A82001B2756F9004B6BCB /* MIFeedLoad.h */,
+				C25A82011B2756F9004B6BCB /* MIFeedLoad.m */,
+				C25A82021B2756F9004B6BCB /* MIFeedParser.h */,
+				C25A82031B2756F9004B6BCB /* MIFeedParser.m */,
+				C25A82041B2756F9004B6BCB /* MIRemoteFile.h */,
+				C25A82051B2756F9004B6BCB /* MIRemoteFile.m */,
+				C25A82061B2756F9004B6BCB /* MIXMLUtils.h */,
+				C25A82071B2756F9004B6BCB /* MIXMLUtils.m */,
+				C25A82081B2756F9004B6BCB /* MICircleActivity.h */,
+				C25A82091B2756F9004B6BCB /* MICircleActivity.m */,
+				C25A820A1B2756F9004B6BCB /* news.css */,
+				C25A820B1B2756F9004B6BCB /* news.html */,
+				C25A820C1B2756F9004B6BCB /* news.js */,
+				C25A820D1B2756F9004B6BCB /* underscore-min.js */,
+				C25A820E1B2756F9004B6BCB /* zepto.min.js */,
+				C25A820F1B2756F9004B6BCB /* MKAnnotationView+WebCache.h */,
+				C25A82101B2756F9004B6BCB /* MKAnnotationView+WebCache.m */,
+				C25A82111B2756F9004B6BCB /* NSData+ImageContentType.h */,
+				C25A82121B2756F9004B6BCB /* NSData+ImageContentType.m */,
+				C25A82131B2756F9004B6BCB /* SDImageCache.h */,
+				C25A82141B2756F9004B6BCB /* SDImageCache.m */,
+				C25A82151B2756F9004B6BCB /* SDWebImageCompat.h */,
+				C25A82161B2756F9004B6BCB /* SDWebImageCompat.m */,
+				C25A82171B2756F9004B6BCB /* SDWebImageDecoder.h */,
+				C25A82181B2756F9004B6BCB /* SDWebImageDecoder.m */,
+				C25A82191B2756F9004B6BCB /* SDWebImageDownloader.h */,
+				C25A821A1B2756F9004B6BCB /* SDWebImageDownloader.m */,
+				C25A821B1B2756F9004B6BCB /* SDWebImageDownloaderOperation.h */,
+				C25A821C1B2756F9004B6BCB /* SDWebImageDownloaderOperation.m */,
+				C25A821D1B2756F9004B6BCB /* SDWebImageManager.h */,
+				C25A821E1B2756F9004B6BCB /* SDWebImageManager.m */,
+				C25A821F1B2756F9004B6BCB /* SDWebImageOperation.h */,
+				C25A82201B2756F9004B6BCB /* SDWebImagePrefetcher.h */,
+				C25A82211B2756F9004B6BCB /* SDWebImagePrefetcher.m */,
+				C25A82221B2756F9004B6BCB /* UIButton+WebCache.h */,
+				C25A82231B2756F9004B6BCB /* UIButton+WebCache.m */,
+				C25A82241B2756F9004B6BCB /* UIImage+GIF.h */,
+				C25A82251B2756F9004B6BCB /* UIImage+GIF.m */,
+				C25A82261B2756F9004B6BCB /* UIImage+MultiFormat.h */,
+				C25A82271B2756F9004B6BCB /* UIImage+MultiFormat.m */,
+				C25A82281B2756F9004B6BCB /* UIImage+WebP.h */,
+				C25A82291B2756F9004B6BCB /* UIImage+WebP.m */,
+				C25A822A1B2756FA004B6BCB /* UIImageView+HighlightedWebCache.h */,
+				C25A822B1B2756FA004B6BCB /* UIImageView+HighlightedWebCache.m */,
+				C25A822C1B2756FA004B6BCB /* UIImageView+WebCache.h */,
+				C25A822D1B2756FA004B6BCB /* UIImageView+WebCache.m */,
+				C25A822E1B2756FA004B6BCB /* UIView+WebCacheOperation.h */,
+				C25A822F1B2756FA004B6BCB /* UIView+WebCacheOperation.m */,
+				C25A82491B2756FA004B6BCB /* MIConfig.h */,
+				C28EB53F1B280A6400B762DC /* ISAlertView.swift */,
+				C28EB5401B280A6400B762DC /* ISFrostedSidebar.swift */,
+				C28EB5411B280A6400B762DC /* ISInAppBrowser.swift */,
+				C28EB53D1B280A4200B762DC /* WPN-Icons.xcassets */,
+				C25A81E01B2756F8004B6BCB /* WPNews2-Bridging-Header.h */,
+			);
+			name = WPN2Source;
+			sourceTree = "<group>";
+		};
+		C27B765F1B36D7D600D0C711 /* TodaySource */ = {
+			isa = PBXGroup;
+			children = (
+				C2FEA6511B2A01A6003F0C80 /* MITodayViewController.swift */,
+				C2FEA65C1B2A022A003F0C80 /* MITodayCell.swift */,
+				C2491DA21B2DCF360017BE8C /* NewsPost.swift */,
+			);
+			name = TodaySource;
+			sourceTree = "<group>";
+		};
+		C27B76601B36E1EC00D0C711 /* NWatchSource */ = {
+			isa = PBXGroup;
+			children = (
+				C256F1D61B30A5C000AB811E /* MINewsString+RemoveHTMLCharacters.swift */,
+				C2DE40E81B2F223F00B12B5C /* NewsPostWatch.swift */,
+				C211C1391B2EB1C300C2303A /* InterfaceController.swift */,
+				C2DE40E41B2F1EFE00B12B5C /* MINewsTableRowController.swift */,
+				C249A7D91B304D37006CDBC6 /* MINewsDetailInterfaceController.swift */,
+				C228C3671B2F47F0006B9030 /* MIImageDeviceCache.swift */,
+			);
+			name = NWatchSource;
+			sourceTree = "<group>";
+		};
+		C2FEA64B1B2A01A6003F0C80 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2FEA64C1B2A01A6003F0C80 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2FEA64E1B2A01A6003F0C80 /* MITodayWidget */ = {
+			isa = PBXGroup;
+			children = (
+				C27B765F1B36D7D600D0C711 /* TodaySource */,
+				C2FEA6531B2A01A6003F0C80 /* MainInterface.storyboard */,
+				C2FEA6AE1B2A1CBB003F0C80 /* MITodayWidget-Bridging-Header.h */,
+				C2FEA64F1B2A01A6003F0C80 /* Supporting Files */,
+			);
+			path = MITodayWidget;
+			sourceTree = "<group>";
+		};
+		C2FEA64F1B2A01A6003F0C80 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2FEA6501B2A01A6003F0C80 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C211C1331B2EB1C300C2303A /* WPNews2 WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C211C1551B2EB1C400C2303A /* Build configuration list for PBXNativeTarget "WPNews2 WatchKit Extension" */;
+			buildPhases = (
+				C211C1301B2EB1C300C2303A /* Sources */,
+				C211C1311B2EB1C300C2303A /* Frameworks */,
+				C211C1321B2EB1C300C2303A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C211C1441B2EB1C400C2303A /* PBXTargetDependency */,
+			);
+			name = "WPNews2 WatchKit Extension";
+			productName = "WPNews2 WatchKit Extension";
+			productReference = C211C1341B2EB1C300C2303A /* WPNews2 WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		C211C1401B2EB1C300C2303A /* WPNews2 WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C211C1541B2EB1C400C2303A /* Build configuration list for PBXNativeTarget "WPNews2 WatchKit App" */;
+			buildPhases = (
+				C211C13F1B2EB1C300C2303A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WPNews2 WatchKit App";
+			productName = "WPNews2 WatchKit App";
+			productReference = C211C1411B2EB1C400C2303A /* WPNews2 WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+		C25A81B91B275664004B6BCB /* WPNews2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C25A81D91B275664004B6BCB /* Build configuration list for PBXNativeTarget "WPNews2" */;
+			buildPhases = (
+				C25A81B61B275664004B6BCB /* Sources */,
+				C25A81B71B275664004B6BCB /* Frameworks */,
+				C25A81B81B275664004B6BCB /* Resources */,
+				C2FEA65B1B2A01A7003F0C80 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2FEA6561B2A01A6003F0C80 /* PBXTargetDependency */,
+				C211C14E1B2EB1C400C2303A /* PBXTargetDependency */,
+			);
+			name = WPNews2;
+			productName = WPNews2;
+			productReference = C25A81BA1B275664004B6BCB /* WPNews2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C25A81CE1B275664004B6BCB /* WPNews2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C25A81DC1B275664004B6BCB /* Build configuration list for PBXNativeTarget "WPNews2Tests" */;
+			buildPhases = (
+				C25A81CB1B275664004B6BCB /* Sources */,
+				C25A81CC1B275664004B6BCB /* Frameworks */,
+				C25A81CD1B275664004B6BCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C25A81D11B275664004B6BCB /* PBXTargetDependency */,
+			);
+			name = WPNews2Tests;
+			productName = WPNews2Tests;
+			productReference = C25A81CF1B275664004B6BCB /* WPNews2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C2FEA6491B2A01A6003F0C80 /* MITodayWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2FEA65A1B2A01A7003F0C80 /* Build configuration list for PBXNativeTarget "MITodayWidget" */;
+			buildPhases = (
+				C2FEA6461B2A01A6003F0C80 /* Sources */,
+				C2FEA6471B2A01A6003F0C80 /* Frameworks */,
+				C2FEA6481B2A01A6003F0C80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MITodayWidget;
+			productName = MITodayWidget;
+			productReference = C2FEA64A1B2A01A6003F0C80 /* MITodayWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C25A81B21B275664004B6BCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Istvan Szabo";
+				TargetAttributes = {
+					C211C1331B2EB1C300C2303A = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					C211C1401B2EB1C300C2303A = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					C25A81B91B275664004B6BCB = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					C25A81CE1B275664004B6BCB = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = C25A81B91B275664004B6BCB;
+					};
+					C2FEA6491B2A01A6003F0C80 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = C25A81B51B275664004B6BCB /* Build configuration list for PBXProject "WPNews2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C25A81B11B275664004B6BCB;
+			productRefGroup = C25A81BB1B275664004B6BCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C25A81B91B275664004B6BCB /* WPNews2 */,
+				C25A81CE1B275664004B6BCB /* WPNews2Tests */,
+				C2FEA6491B2A01A6003F0C80 /* MITodayWidget */,
+				C211C1331B2EB1C300C2303A /* WPNews2 WatchKit Extension */,
+				C211C1401B2EB1C300C2303A /* WPNews2 WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C211C1321B2EB1C300C2303A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C211C13E1B2EB1C300C2303A /* Images.xcassets in Resources */,
+				C211C1421B2EB1C400C2303A /* WPNews2 WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C211C13F1B2EB1C300C2303A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C211C14A1B2EB1C400C2303A /* Interface.storyboard in Resources */,
+				C211C14C1B2EB1C400C2303A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C25A81B81B275664004B6BCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C25A82621B2756FA004B6BCB /* news.js in Resources */,
+				C25A81C51B275664004B6BCB /* Main.storyboard in Resources */,
+				C25A82601B2756FA004B6BCB /* news.css in Resources */,
+				C28EB53E1B280A4200B762DC /* WPN-Icons.xcassets in Resources */,
+				C25A82521B2756FA004B6BCB /* Localizable.strings in Resources */,
+				C25A82611B2756FA004B6BCB /* news.html in Resources */,
+				C25A81CA1B275664004B6BCB /* LaunchScreen.xib in Resources */,
+				C25A82641B2756FA004B6BCB /* zepto.min.js in Resources */,
+				C25A81C71B275664004B6BCB /* Images.xcassets in Resources */,
+				C25A82631B2756FA004B6BCB /* underscore-min.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C25A81CD1B275664004B6BCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2FEA6481B2A01A6003F0C80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2FEA6541B2A01A6003F0C80 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C211C1301B2EB1C300C2303A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C211C13C1B2EB1C300C2303A /* NotificationController.swift in Sources */,
+				C2DE40E51B2F1EFE00B12B5C /* MINewsTableRowController.swift in Sources */,
+				C249A7DA1B304D37006CDBC6 /* MINewsDetailInterfaceController.swift in Sources */,
+				C228C3681B2F47F0006B9030 /* MIImageDeviceCache.swift in Sources */,
+				C211C13A1B2EB1C300C2303A /* InterfaceController.swift in Sources */,
+				C2DE40E91B2F223F00B12B5C /* NewsPostWatch.swift in Sources */,
+				C256F1D71B30A5C000AB811E /* MINewsString+RemoveHTMLCharacters.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C25A81B61B275664004B6BCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C25A826F1B2756FA004B6BCB /* UIImage+GIF.m in Sources */,
+				C28EB5421B280A6400B762DC /* ISAlertView.swift in Sources */,
+				C25A824D1B2756FA004B6BCB /* MICellView.m in Sources */,
+				C25A824C1B2756FA004B6BCB /* MIArticleViewController.m in Sources */,
+				C25A82511B2756FA004B6BCB /* MONActivityIndicatorView.m in Sources */,
+				C28EB5431B280A6400B762DC /* ISFrostedSidebar.swift in Sources */,
+				C25A826E1B2756FA004B6BCB /* UIButton+WebCache.m in Sources */,
+				C25A825A1B2756FA004B6BCB /* MIFeedItem.m in Sources */,
+				C25A82701B2756FA004B6BCB /* UIImage+MultiFormat.m in Sources */,
+				C25A824E1B2756FA004B6BCB /* MINewsViewController.m in Sources */,
+				C25A82691B2756FA004B6BCB /* SDWebImageDecoder.m in Sources */,
+				C25A82591B2756FA004B6BCB /* MIFeedCache.m in Sources */,
+				C25A82731B2756FA004B6BCB /* UIImageView+WebCache.m in Sources */,
+				C25A82531B2756FA004B6BCB /* MICustomColoredAccessory.m in Sources */,
+				C25A824F1B2756FA004B6BCB /* PostCell.m in Sources */,
+				C25A82661B2756FA004B6BCB /* NSData+ImageContentType.m in Sources */,
+				C25A826A1B2756FA004B6BCB /* SDWebImageDownloader.m in Sources */,
+				C25A82551B2756FA004B6BCB /* NINetworkActivity.m in Sources */,
+				C25A82541B2756FA004B6BCB /* KSMManyOptionsButton.m in Sources */,
+				C25A82721B2756FA004B6BCB /* UIImageView+HighlightedWebCache.m in Sources */,
+				C25A82571B2756FA004B6BCB /* AFDropdownNotification.m in Sources */,
+				C25A825B1B2756FA004B6BCB /* MIFeedLoad.m in Sources */,
+				C28EB5441B280A6400B762DC /* ISInAppBrowser.swift in Sources */,
+				C25A824B1B2756FA004B6BCB /* ISImageViewController.m in Sources */,
+				C25A825D1B2756FA004B6BCB /* MIRemoteFile.m in Sources */,
+				C25A82741B2756FA004B6BCB /* UIView+WebCacheOperation.m in Sources */,
+				C25A82681B2756FA004B6BCB /* SDWebImageCompat.m in Sources */,
+				C25A82581B2756FA004B6BCB /* MIFeed.m in Sources */,
+				C25A82651B2756FA004B6BCB /* MKAnnotationView+WebCache.m in Sources */,
+				C25A825E1B2756FA004B6BCB /* MIXMLUtils.m in Sources */,
+				C25A825C1B2756FA004B6BCB /* MIFeedParser.m in Sources */,
+				C25A826D1B2756FA004B6BCB /* SDWebImagePrefetcher.m in Sources */,
+				C25A81C01B275664004B6BCB /* AppDelegate.swift in Sources */,
+				C25A826B1B2756FA004B6BCB /* SDWebImageDownloaderOperation.m in Sources */,
+				C25A825F1B2756FA004B6BCB /* MICircleActivity.m in Sources */,
+				C25A826C1B2756FA004B6BCB /* SDWebImageManager.m in Sources */,
+				C25A82711B2756FA004B6BCB /* UIImage+WebP.m in Sources */,
+				C25A82561B2756FA004B6BCB /* NSArray+Additions.m in Sources */,
+				C25A82671B2756FA004B6BCB /* SDImageCache.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C25A81CB1B275664004B6BCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C25A81D61B275664004B6BCB /* WPNews2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2FEA6461B2A01A6003F0C80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2491DA31B2DCF360017BE8C /* NewsPost.swift in Sources */,
+				C2FEA6521B2A01A6003F0C80 /* MITodayViewController.swift in Sources */,
+				C2FEA65D1B2A022A003F0C80 /* MITodayCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C211C1441B2EB1C400C2303A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C211C1401B2EB1C300C2303A /* WPNews2 WatchKit App */;
+			targetProxy = C211C1431B2EB1C400C2303A /* PBXContainerItemProxy */;
+		};
+		C211C14E1B2EB1C400C2303A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C211C1331B2EB1C300C2303A /* WPNews2 WatchKit Extension */;
+			targetProxy = C211C14D1B2EB1C400C2303A /* PBXContainerItemProxy */;
+		};
+		C25A81D11B275664004B6BCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C25A81B91B275664004B6BCB /* WPNews2 */;
+			targetProxy = C25A81D01B275664004B6BCB /* PBXContainerItemProxy */;
+		};
+		C2FEA6561B2A01A6003F0C80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2FEA6491B2A01A6003F0C80 /* MITodayWidget */;
+			targetProxy = C2FEA6551B2A01A6003F0C80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C211C1481B2EB1C400C2303A /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C211C1491B2EB1C400C2303A /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		C25A81C31B275664004B6BCB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C25A81C41B275664004B6BCB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C25A81C81B275664004B6BCB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C25A81C91B275664004B6BCB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C211C1501B2EB1C400C2303A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WPNews2 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C211C1511B2EB1C400C2303A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "WPNews2 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C211C1521B2EB1C400C2303A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = WPNews2_WatchKit_Extension;
+				INFOPLIST_FILE = "WPNews2 WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		C211C1531B2EB1C400C2303A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = WPNews2_WatchKit_Extension;
+				INFOPLIST_FILE = "WPNews2 WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		C25A81D71B275664004B6BCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C25A81D81B275664004B6BCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C25A81DA1B275664004B6BCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"${SDK_DIR}/usr/include/libxml2\"",
+				);
+				INFOPLIST_FILE = WPNews2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WPNews2/WPNews2-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C25A81DB1B275664004B6BCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"${SDK_DIR}/usr/include/libxml2\"",
+				);
+				INFOPLIST_FILE = WPNews2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WPNews2/WPNews2-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		C25A81DD1B275664004B6BCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WPNews2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WPNews2.app/WPNews2";
+			};
+			name = Debug;
+		};
+		C25A81DE1B275664004B6BCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WPNews2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WPNews2.app/WPNews2";
+			};
+			name = Release;
+		};
+		C2FEA6581B2A01A6003F0C80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MITodayWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MITodayWidget/MITodayWidget-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C2FEA6591B2A01A6003F0C80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = MITodayWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MITodayWidget/MITodayWidget-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C211C1541B2EB1C400C2303A /* Build configuration list for PBXNativeTarget "WPNews2 WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C211C1521B2EB1C400C2303A /* Debug */,
+				C211C1531B2EB1C400C2303A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C211C1551B2EB1C400C2303A /* Build configuration list for PBXNativeTarget "WPNews2 WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C211C1501B2EB1C400C2303A /* Debug */,
+				C211C1511B2EB1C400C2303A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C25A81B51B275664004B6BCB /* Build configuration list for PBXProject "WPNews2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C25A81D71B275664004B6BCB /* Debug */,
+				C25A81D81B275664004B6BCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C25A81D91B275664004B6BCB /* Build configuration list for PBXNativeTarget "WPNews2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C25A81DA1B275664004B6BCB /* Debug */,
+				C25A81DB1B275664004B6BCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C25A81DC1B275664004B6BCB /* Build configuration list for PBXNativeTarget "WPNews2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C25A81DD1B275664004B6BCB /* Debug */,
+				C25A81DE1B275664004B6BCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2FEA65A1B2A01A7003F0C80 /* Build configuration list for PBXNativeTarget "MITodayWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2FEA6581B2A01A6003F0C80 /* Debug */,
+				C2FEA6591B2A01A6003F0C80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C25A81B21B275664004B6BCB /* Project object */;
+}

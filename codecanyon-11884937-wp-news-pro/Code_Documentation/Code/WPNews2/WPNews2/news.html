@@ -1,0 +1,27 @@
+<!-- the template used to display the pageInfo object passed to WPNews2.loadPage -->
+
+<!doctype html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width">
+    <script type="text/javascript" src="zepto.min.js"></script>
+    <script type="text/javascript" src="underscore-min.js"></script>
+    <script type="text/javascript" src="news.js"></script>
+    <link rel="stylesheet" type="text/css" href="news.css"></link>
+    <script id="template" type="text/template">
+     
+      <h1><%= title %></h1>
+      <p class="dateline">
+	by <%= creator %><br />
+	<%= date %>
+      </p>
+      <div class="content">
+	<%= description %>
+      </div>
+    </script>
+  </head>
+  <body>
+   
+    <div id="article"></div>
+  </body>
+</html>
